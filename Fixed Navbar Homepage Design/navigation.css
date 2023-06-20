@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+   
+}
+.head-section{
+  width: 1170px;
+  margin: 0 auto;  
+
+}
+header{
+    position: fixed;
+    height: 100px;
+    background-color: #262626;
+    z-index: 10;
+    width:100%;
+}
+.logo{
+    line-height: 100px;
+    width: 30%;
+    float: left;
+}
+.logo a{
+    color: rgb(240, 239, 239);
+    font-size: 22px;
+    text-decoration: none;
+    font-family: poppins;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+   
+
+}
+
+nav a{
+    font-family: poppins;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: rgb(240, 239, 239);
+    margin: 0 10px;
+}
+ header .head-section nav a:hover{
+ 
+    opacity: 1;
+    background-color: lightcoral;
+    transition: 0.8;
+
+}
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+    background-size: cover;
+    background-position:center center;
+    -webkit-background-size: cover;
+
+}
+.banner-area h2{
+    letter-spacing: 8px;
+    color: white;
+    font-family: poppins;
+    font-size: 70px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.content-area{
+    width: 100%;
+    top: 450px;
+    position: relative;
+    background: white;
+    height: 1500px;
+}
+.content-area h2{
+    font-family: poppins;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.content-area p{
+    font-family: poppins;
+    letter-spacing: 1px;
+    padding: 2% 0;
+    line-height:30px;
+
+}
+
+
+@media(max-width:768px){
+    .content-area{
+        width: 50%;
+        top: 200px;
+        position: relative;
+        background: white;
+        height: 750px;
+    }
+    .banner-area{
+        width: 50%;
+        height: 250px;
+        position: fixed;
+        top: 100px;
+        background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+        background-size: cover;
+        background-position:center center;
+        -webkit-background-size: cover;
+    
+    }
+    .banner-area h2{
+        letter-spacing: 4px;
+        color: white;
+        font-family: poppins;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding-top: 80px;
+    }
+    .banner-area{
+        width: 50%;
+        height: 250px;
+        position: fixed;
+        top: 20px;
+        background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+        background-size: cover;
+        background-position:center center;
+        -webkit-background-size: cover;
+    
+    }
+    nav a{
+        font-family: poppins;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-size: 10px;
+        color: rgb(240, 239, 239);
+        margin: 0 5px;
+    }
+    header{
+        position: fixed;
+        height: 50px;
+        background-color: #262626;
+        z-index: 100;
+        width:50%;
+    }
+    .logo a{
+        color: rgb(240, 239, 239);
+        font-size: 15px;
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+    }
+    .logo{
+        line-height: 50px;
+        width: 30%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
